@@ -1,0 +1,77 @@
+body {
+	background-color: #f4f4f4;
+}
+
+.header, .showcase {
+	border-bottom: 3px solid #ccc;
+}
+
+.social {
+	float: right;
+	padding-top: 25px;
+}
+
+.social img {
+	width: 40px;
+}
+
+.showcase {
+	padding: 40px 0;
+	height: 400px;
+	margin-bottom: 20px;
+	background: #f4f4f4 url('../img/showcase.jpg') no-repeat top center;
+}
+
+.showcase h1 {
+	font-size: 50px;
+}
+
+.showcase p {
+	font-size: 22px;
+	width: 90%;
+}
+
+.boxes, .boxes i, footer {
+	text-align: center;
+}
+
+.boxes i {
+	font-size: 50px;
+	margin: auto;
+	display: block;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	height: 80px;
+	padding-top: 30px;
+}
+
+/******
+* About Us
+******/
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.side-menu h4 {
+	background: #42a5db;
+	color: #fff;
+	padding: 8px;
+}
+
+/******
+* Service
+******/
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+	background: #42a5db;
+	color: #fff;
+}
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover, .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+	background: #333;
+	color: #fff;
+}
